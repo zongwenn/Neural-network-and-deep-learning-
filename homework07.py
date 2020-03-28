@@ -36,6 +36,7 @@ plt.imshow(img_rgb)
 plt.title("RGB",fontsize=14)
 img_rgb.save("test.png")
 
-plt.show()
 plt.tight_layout()
 plt.suptitle("图像基本操作",color="blue",fontsize=20)
+plt.show()
+
